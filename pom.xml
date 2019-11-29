@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.1.RELEASE</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.github.ebaptistella.date-datatype-json</groupId>
+	<artifactId>date-datatype-json</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>date-datatype-json</name>
+	<description>Spring Boot Serialize/Deserialize data type Date using Jackson</description>
+	<packaging>pom</packaging>
+	
+	<properties>
+		<spring-cloud.version>Greenwich.SR4</spring-cloud.version>
+	</properties>
+	
+	
+	<modules>
+		<module>util</module>
+		<module>dto</module>
+		<module>server</module>
+		<module>consumer</module>
+	</modules>
+	
+</project>
